@@ -14,6 +14,8 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/unescaped-markup/prism-unescaped-markup.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/toolbar/prism-toolbar.min.css");
 
+@import url("https://cdn.jsdelivr.net/gh/DoctorRetromaker/csharp-css/prismjs-custom.min.css");
+
 /* Infinity Custom CSS*/
 
 :root {
@@ -47,86 +49,6 @@ body {
 img.rounded-circle {
   height: revert-layer;
 }
-
-/* Bracketted Paragraph */
-
-.bracketted {
-  display: flex;
-  align-items: center;
-}
-
-.bracketted:before {
-  content: '[';
-  color: #ffb1bb;
-  font-size: 60px;
-  text-align: right;
-  padding-right: 10px;
-}
-
-.bracketted:after {
-  content: ']';
-  color: #ffb1bb;
-  font-size: 60px;
-  text-align: left;
-  padding-left: 10px;
-}
-
-/* Barcketted Column */
-
-bracketed-column:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 1px;
-  width: 15%;
-  border-top: 5px solid #ff00ff;
-  border-bottom: 1px solid magenta;
-  border-top: 1px solid magenta;
-}
-
-/* PrismJS cutomize */
-
-code {
-  background: var(--bs-gray-200);
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
-  padding-left: 0.4rem;
-  padding-right: 0.4rem;
-  border-radius: 0.4rem;
-  border: 0.01rem solid var(--bs-gray-400) !important;
-}
-
-code[class*=language-] {
-  font-family: var(--bs-font-monospace) !important;
-  font-size: x-small !important;
-  border-left: 10px solid steelblue !important;
-}
-
-pre[class*=line-numbers] code {
-  padding-left: 2.5rem !important;
-}
-
-pre code {
-  font-family: var(--bs-font-monospace) !important;
-  padding-left: 1rem !important;
-  font-size: x-small !important;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.figure-caption {
-  font-family: var(--bs-font-monospace) !important;
-  font-size: xx-small !important;
-  text-align: center !important;
-}
-
-pre[class*=language]:before, pre[class*=language]:after {
-  box-shadow: unset !important;
-  transform: unset !important;
-}
-
-.line-highlight { z-index: 1; }
 
 /* TOC Bootstrap */
 
