@@ -1,3 +1,47 @@
+/* PrismJS cutomize */
+
+code {
+  background: var(--bs-gray-200);
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  border-radius: 0.4rem;
+  border: 0.01rem solid var(--bs-gray-400) !important;
+}
+
+code[class*=language-] {
+  font-family: var(--bs-font-monospace) !important;
+  font-size: x-small !important;
+  border-left: 10px solid steelblue !important;
+}
+
+pre[class*=line-numbers] code {
+  padding-left: 2.5rem !important;
+}
+
+pre code {
+  font-family: var(--bs-font-monospace) !important;
+  padding-left: 1rem !important;
+  font-size: x-small !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.figure-caption {
+  font-family: var(--bs-font-monospace) !important;
+  font-size: xx-small !important;
+  text-align: center !important;
+}
+
+pre[class*=language]:before, pre[class*=language]:after {
+  box-shadow: unset !important;
+  transform: unset !important;
+}
+
+.line-highlight { z-index: 1; }
+
+
 /* Bracketted Paragraph */
 
 .bracketted {
