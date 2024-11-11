@@ -40,35 +40,15 @@ html {
   background-position: center;
 }
 
-.bg-toc-color
+:is(h1, h2, h3, h4, h5, h6).bg-color-teknik
 {
-  background-color: var(--toc-color)!important;
+  background-color: steelblue !important;
+  color: white !important
 }
 
 img.rounded-circle 
 {
   height: revert-layer;
-}
-
-/* TOC Bootstrap */
-
-ol.bs-toc, ul.bs-toc {
-  border: none !important;
-  --bs-text-opacity: 1 !important;
-  background-color: transparent !important;
-  color: var(--toc-color) !important;
-}
-
-h1.bs-toc {
-  color: var(--toc-color) !important;
-  border: none !important;
-}
-
-hr.bs-toc {
-  border-radius: 10px !important;
-  background-color: steelblue !important;
-  border: solid 4px steelblue !important;
-  opacity: 1 !important;
 }
 
 /* eXe iDevices customize */
