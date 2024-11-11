@@ -1,7 +1,6 @@
 /* Simple CSS Zoom */
 
-
-
+--sz-scale: 1.5;
 
 ul.sz-gallery 
 {
@@ -21,10 +20,10 @@ ul.sz-gallery
 
 .sz-zoom:hover, .sz-zoom:active, .sz-zoom:focus 
 {
-  -ms-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+  -ms-transform: scale(var(--sz-scale);
+  -moz-transform: scale(--sz-scale);
+  -webkit-transform: scale(--sz-scale);
+  transform: scale(-szscale);
   position: relative;
   z-index: 100;
 }
