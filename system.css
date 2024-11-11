@@ -42,6 +42,11 @@ html {
   background-position: center;
 }
 
+.bg-toc-color
+{
+  background-color: var(--toc-color)!important;
+}
+
 img.rounded-circle 
 {
   height: revert-layer;
@@ -90,29 +95,4 @@ hr.bs-toc {
 
 #emptyHeader, #nodeDecoration {
   border-bottom: unset !important;
-}
-
-/* Simple CSS Zoom */
-
-ul.bs-gallery {
-  margin-left: 3vw;
-  margin-right: 3vw;
-}
-
-.bs-zoom, .zoom {
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
-  cursor: -webkit-zoom-in;
-  cursor: -moz-zoom-in;
-  cursor: zoom-in;
-}
-
-.bs-zoom:hover, .bs-zoom:active, .bs-zoom:focus, .zoom:hover, .zoom:active, .zoom:focus {
-  -ms-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-  position: relative;
-  z-index: 100;
 }
