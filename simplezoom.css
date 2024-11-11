@@ -1,1 +1,30 @@
+/* Simple CSS Zoom */
 
+
+
+
+ul.sz-gallery 
+{
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.sz-zoom 
+{
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
+}
+
+.sz-zoom:hover, .sz-zoom:active, .sz-zoom:focus 
+{
+  -ms-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  position: relative;
+  z-index: 100;
+}
