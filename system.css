@@ -22,8 +22,15 @@
 
 /* Infinity Custom CSS*/
 
-html {
+html 
+{
   height: 100%;
+}
+
+body
+{
+  text-align: justify!important; 
+  text-justify: inter-character!important;
 }
 
 .bg-infinity-95
@@ -44,7 +51,7 @@ html {
 {
   background-color: steelblue !important;
   color: white !important;
-  padding-left: 3rem!important;
+  padding-left: 3rem !important;
 }
 
 img.rounded-circle 
