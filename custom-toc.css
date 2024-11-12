@@ -17,8 +17,8 @@ h1.bs-toc
 hr.bs-toc 
 {
   border-radius: 10px !important;
-  background-color: steelblue !important;
-  border: solid 4px steelblue !important;
+  background-color: var(--toc-color) !important;
+  border: solid 4px var(--toc-color) !important;
   opacity: 1 !important;
 }
 
