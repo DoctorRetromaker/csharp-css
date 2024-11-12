@@ -2,5 +2,8 @@
     variables propias
 */
 
---toc-color: steelblue;
+:root
+{
+    --toc-color: steelblue;
+}
 
