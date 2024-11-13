@@ -72,6 +72,20 @@ body
   padding-left: 3rem !important;
 }
 
+/* accordions */
+.accordion-button.tk-accordion
+{
+  background-color: var(--tk-active-color) !important;
+  color: white !important;
+  padding-left: 3rem !important;
+  font-size: 2rem !important;
+  text-transform: uppercase;
+}
+
+
+  
+}
+
 img.rounded-circle 
 {
   height: revert-layer;
