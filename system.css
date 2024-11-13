@@ -78,7 +78,7 @@ body
   background-color: var(--tk-active-color) !important;
   color: white !important;
   padding-left: 3rem !important;
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
   text-transform: uppercase;
 }
 
