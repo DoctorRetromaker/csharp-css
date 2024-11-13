@@ -23,7 +23,7 @@
 @import url('https://cdn.jsdelivr.net/gh/DoctorRetromaker/csharp-css/custom-toc.min.css');
 @import url('https://cdn.jsdelivr.net/gh/DoctorRetromaker/csharp-css/simplezoom.min.css');
 
-/* Infinity Custom CSS*/
+/* Teknik.School Custom CSS*/
 
 html 
 {
@@ -50,9 +50,20 @@ body
   background-position: center;
 }
 
-:is(h1, h2, h3, h4, h5, h6).bg-color-teknik
+/* headers */
+
+:is(h1, h2, h3, h4, h5, h6).bg-color-teknik,
+:is(h1, h2, h3, h4, h5, h6).tk-active-bg
 {
-  background-color: steelblue !important;
+  background-color: var(--tk-active-color) !important;
+  color: white !important;
+  padding-left: 3rem !important;
+}
+
+/* accordions */
+accordion-button.tk-active-bg
+{
+  backgorund-color: var(--tk-active-color) !important;
   color: white !important;
   padding-left: 3rem !important;
 }
