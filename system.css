@@ -61,7 +61,7 @@ body
 }
 
 /* accordions */
-.accordion-button.tk-active-bg
+.tk-active-bg
 {
   backgorund-color: var(--tk-active-color) !important;
   color: white !important;
