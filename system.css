@@ -40,7 +40,8 @@ body
 /* headers */
 :is(h1, h2, h3, h4, h5, h6).tk-header,
 :is(h1, h2, h3, h4, h5, h6).bg-color-teknik,
-:is(h1, h2, h3, h4, h5, h6).tk-active-bg
+:is(h1, h2, h3, h4, h5, h6).tk-active-bg,
+.tk-header
 {
   background-color: var(--tk-active-color) !important;
   color: white !important;
