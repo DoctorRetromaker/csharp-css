@@ -82,6 +82,13 @@ tk-background-95,
   text-transform: uppercase;
 }
 
+/* tabs */
+.tk-nav-link
+{
+  background-color: var(--tk-active-color) !important;
+  color: white !important;
+}
+
 
 /*
 img.rounded-circle 
