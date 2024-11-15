@@ -73,7 +73,7 @@ tk-background-95,
 }
 
 /* accordions */
-.tk-accordion
+.tk-accordion-button
 {
   background-color: var(--tk-active-color) !important;
   color: white !important;
@@ -82,12 +82,15 @@ tk-background-95,
   text-transform: uppercase;
 }
 
+
+/*
 img.rounded-circle 
 {
   height: revert-layer;
 }
+*/
 
-/* eXe iDevices customize */
+/* eXeLearning iDevices customize */
 
 .iDevice {
   margin: unset !important;
