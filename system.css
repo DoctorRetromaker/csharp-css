@@ -4,6 +4,7 @@
 @import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css');
 
 @import url('https://cdn.jsdelivr.net/gh/DoctorRetromaker/csharp-css/vars.min.css');
+@import url('https://cdn.jsdelivr.net/gh/DoctorRetromaker/csharp-css/fonts.min.css');
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/typicons/2.1.2/typicons.min.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/3.22.0/tabler-icons.min.css');
@@ -31,6 +32,16 @@
 {
     --tk-active-color: steelblue;
     --toc-color: steelblue;
+    --bs-font-monospace: 
+	    {
+		font-family: 'JetBrains Mono', sans-serif!important; 
+        	font-size: x-small;
+        	font-style: normal!important;
+        	font-weight: 800!important;        
+	    }	
+}
+    
+	
 }
 
 /* page items */
