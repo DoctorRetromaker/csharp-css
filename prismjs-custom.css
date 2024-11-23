@@ -41,10 +41,12 @@ pre[class*=language]:before, pre[class*=language]:after {
 
 .line-highlight { z-index: 1; }
 
+/*
 pre[class*=language-]>code {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+*/
 
 /* Bracketted Paragraph */
 
