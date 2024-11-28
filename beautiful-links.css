@@ -1,17 +1,15 @@
-/* Beautiful Links                          */
-/* tk-bl-*                                  */
-/*        boxed -> animated boxed link      */
-/*        lined -> animated underlined link */
-/*                                          */
+/* Beautiful Links                                 */
+/* tk-bl-*                                         */
+/*        boxed -> animated boxed link             */
+/*        underlined -> animated underlined link   */
+/*                                                 */
 
-
-/* ANIMATED BOXED LINK */
-
-a.tk-bl-boxed,
-a.tk-bl-lined
+a.tk-bl-*
 {
   cursor: pointer;
 }
+
+/* ANIMATED BOXED LINK */
 
 .tk-bl-boxed
 {
@@ -46,9 +44,9 @@ a.tk-bl-lined
       height: 100%;
 }
 
-/* ANIMATED UNBDERLINED LINK */
+/* ANIMATED UNDERLINED LINK */
 
-.bl-lined,.tk-bl-lined
+.tk-bl-underlined
 {
   position: relative;
   text-decoration: none;
@@ -58,17 +56,17 @@ a.tk-bl-lined
   transition: color ease 0.3s;
 }
 
-.bl-lined::before,.bl-lined::after,
-.tk-bl-lined::before,.tk-bl-lined::after
+.tk-bl-underlined::before,
+.tk-bl-underlined::after
 {
   content: '';
   position: absolute;
-  background-color: #steelblue;
+  background-color: steelblue;
   z-index: -1;
   height: 5%;
 }
 
-.bl-lined::before,.tk-bl-lined::before,
+.tk-bl-underlined::before,
 {
   width: 0%;
   left: 0;
@@ -76,7 +74,7 @@ a.tk-bl-lined
   transition: width ease 0.4s;
 }
 
-.bl-lined::after,.tk-bl-lined::after
+.tk-bl-underlined::after
 {
   width: 100%;
   left: 0;
@@ -84,36 +82,14 @@ a.tk-bl-lined
   transition: all ease 0.6s;
 }
 
-.bl-lined:hover::before,.tk-bl-lined:hover::before
+.tk-bl-underlined:hover::before
 {
   width: 100%;
 }
 
-.bl-lined:hover::after,.tk-bl-lined:hover::after
+.tk-bl-underlined:hover::after
 {
   left: 100%;
   width: 0%;
   transition: all ease 0.2s;
 }
-
-/* *To keep upscaled images visible on mobile, 
-increase left & right margins a bit* */
-/*
-@media only screen and (max-width: 768px) {
-  ul.gallery {
-    margin-left: 15vw;
-    margin-right: 15vw;
-  }
-}
-*/
-
-/* *TIP: Easy escape for touch screens,
-give gallery's parent container a cursor: pointer.* */
-
-/*
-@media only screen and (max-width: 768px) {
-  .DivName {
-    cursor: pointer;
-  }
-}
-*/
