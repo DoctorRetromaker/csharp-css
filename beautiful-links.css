@@ -1,11 +1,19 @@
-/* Beautiful Link-underline */
+/* Beautiful Links                          */
+/* tk-bl-*                                  */
+/*        boxed -> animated boxed link      */
+/*        lined -> animated underlined link */
+/*                                          */
 
-a 
+
+/* ANIMATED BOXED LINK */
+
+a.tk-bl-boxed,
+a.tk-bl-lined
 {
   cursor: pointer;
 }
 
-.bl-boxed,.tk-bl-boxed
+.tk-bl-boxed
 {
   position: relative;
   text-decoration: none;
@@ -15,28 +23,30 @@ a
   transition: color ease 0.3s;
 }
 
-.bl-boxed::after,.tk-bl-boxed::after
+.tk-bl-boxed::after 
 {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 15%;
-  left: 0;
-  bottom: 0;
-  background-color: steelblue;
-  transition: all ease 0.3s;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 5%;
+    left: 0;
+    bottom: 0;
+    background-color: steelblue !important;
+    transition: all ease 0.3s;
+  }
+
+.tk-bl-boxed:hover 
+{
+    color: white !important;
 }
 
-.bl-boxed:hover,.tk-bl-boxed:hover
+.tk-bl-boxed:hover::after
 {
-  color: white!important;
+      height: 100%;
 }
 
-.bl-boxed:hover::after,tk-bl-boxed:hover::after
-{
-  height: 100%;
-}
+/* ANIMATED UNBDERLINED LINK */
 
 .bl-lined,.tk-bl-lined
 {
