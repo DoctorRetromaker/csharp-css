@@ -61,9 +61,14 @@ body
 
 body.tk-school
 {
-	background-image: var(--tk-background);
+  background-image: var(--tk-background);
   background-size: cover!important;
   background-position: center!important;
+
+  font-family: 'JetBrains Mono', sans-serif!important;
+  font-size: x-small;
+  font-style: normal!important;
+  font-weight: 800!important; 
 }
 
 body.infinity-school
