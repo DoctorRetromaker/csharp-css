@@ -1,6 +1,6 @@
 /* TOC Bootstrap */
 
-ol.bs-toc, ul.bs-toc 
+ol.tk-toc, ul.tk-toc 
 {
   border: none !important;
   --bs-text-opacity: 1 !important;
@@ -8,13 +8,13 @@ ol.bs-toc, ul.bs-toc
   color: var(--toc-color) !important;
 }
 
-h1.bs-toc 
+h1.tk-toc 
 {
   color: var(--toc-color) !important;
   border: none !important;
 }
 
-hr.bs-toc 
+hr.tk-toc 
 {
   border-radius: 10px !important;
   background-color: var(--toc-color) !important;
