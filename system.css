@@ -47,7 +47,6 @@
 }
 */    
 	
-}
 
 /* page items */
 
@@ -103,11 +102,12 @@ body.infinity-school
   padding-left: 3rem !important;
 }
 
+/* text & backgorund */
 .tk-active-text
 {
   color: var(--tk-active-color) !important;
 }
-*/
+
 
 /* accordions */
 /*
