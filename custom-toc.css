@@ -1,24 +1,26 @@
 /* TOC Teknik.School */
+@import url('https://cdn.jsdelivr.net/gh/DoctorRetromaker/csharp-css/vars.css');
+
 
 ol.tk-toc, ul.tk-toc 
 {
   border: none !important;
   --bs-text-opacity: 1 !important;
   background-color: transparent !important;
-  color: var(--toc-color) !important;
+  color: var(--tk-primary) !important;
 }
 
 h1.tk-toc 
 {
-  color: var(--toc-color) !important;
+  color: var(--tk-primary) !important;
   border: none !important;
 }
 
 hr.tk-toc 
 {
   border-radius: 10px !important;
-  background-color: var(--toc-color) !important;
-  border: solid 4px var(--toc-color) !important;
+  background-color: var(--tk-primary) !important;
+  border: solid 4px var(--tk-primary) !important;
   opacity: 1 !important;
 }
 
