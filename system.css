@@ -50,8 +50,8 @@
 */
 html 
 {
-	--bs-font-sans-serif: var(--tk-font-sans-serif);
-	--bs-font-monospace: var(--tk-font-monospace);
+	--bs-font-sans-serif: var(--tk-font-sans-serif) !important;
+	--bs-font-monospace: var(--tk-font-monospace) !important;
 	/* height: 100%; */
 }
 
@@ -71,7 +71,7 @@ body
 body.tk-school,
 .tk-background
 {
-	background-image: var(--tk-background);
+	background-image: var(--tk-background) !important;
 	background-size: cover!important;
 	background-position: center!important;
 }
@@ -79,7 +79,7 @@ body.tk-school,
 body.infinity-school,
 .inf-background
 {
-	background-image: var(--infinity-background);
+	background-image: var(--infinity-background) !important;
 	background-size: cover!important;
 	background-position: center!important;
 }
