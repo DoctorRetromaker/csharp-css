@@ -50,8 +50,8 @@
 */
 html 
 {
-	--bs-font-sans-serif: var(--tk-font-sans-serif) !important;
-	--bs-font-monospace: var(--tk-font-monospace) !important;
+	--bs-font-sans-serif: var(--tk-font-sans-serif);
+	--bs-font-monospace: var(--tk-font-monospace);
 	/* height: 100%; */
 }
 
